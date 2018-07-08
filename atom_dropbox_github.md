@@ -27,6 +27,9 @@ ATOMからgithubに書き込む方法
 8. ブラウザのgithubにファイルが出てくるのでダブルクリックするとファイルが表示される。
 
 しかしgithubに数式がうまく出ない！ (atomではうまく出た。)
+あたまに
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+をつければいいらしい。
 
 $$
 y=\int_{-\infty}^{\infty} x^2 dx
