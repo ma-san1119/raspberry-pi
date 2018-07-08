@@ -16,6 +16,7 @@ ATOMからgithubに書き込む方法
 操作(まだ理解したわけではない)
 --------------------------
 
+0. atomにmarkdown-preview-plusとmathjax-wrapperをインストールし，markdown-previewをdisableにする。
 1. atomでファイルを作る。.mdファイル。
 2. Ctrl-) でgit画面を開き，add, commitを行う。Dropboxに.gitができる。
 3. ブラウザでgithubにログインし，raspberry-piフォルダを作る。
@@ -25,8 +26,8 @@ ATOMからgithubに書き込む方法
 7. atom右下のボタンでpushやらできる模様。
 8. ブラウザのgithubにファイルが出てくるのでダブルクリックするとファイルが表示される。
 
-しかし数式がうまく出ない！
+しかしgithubに数式がうまく出ない！ (atomではうまく出た。)
 
 $$
-y=x^2
+y=\int_{-\infty}^{\infty} x^2 dx
 $$
